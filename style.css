@@ -1,0 +1,126 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .btn {
+    align-self: center;
+    background-color:#930b0c;
+    border: none;
+    padding: 35px;
+    color: #f3ecca;
+    font-size: 20px;
+    margin-top: 20px;  
+    position: absolute;
+   width: 20%;
+    font-family: 'Klee One', cursive;} 
+  
+  
+  
+  body {
+   background-image: url("https://cdn.glitch.com/d35599c5-e596-4297-9a93-b2b316610cbe%2F5.jpg?v=1629727073198");
+   background-size: cover;
+   background-repeat: no-repeat
+  }
+  
+  h1 {
+    color: #f3ecca;
+    background-color: #454545;
+    height: 8vh;
+    font-family: 'Klee One', cursive;
+      padding: 5px;
+    font-size: 30;
+  }
+  
+  .links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-family: 'Klee One', cursive;
+  }
+  
+  .header {
+    height: 12vh;
+    flex: 1;
+    margin: 5px;
+    background-color: black;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  @media all and (max-width:820px) {
+    body {
+      height:100vh;
+      background-image: url ("https://cdn.glitch.com/d35599c5-e596-4297-9a93-b2b316610cbe%2F5.jpg?v=1629727073198");
+    }
+  
+    .header, .links {
+      margin-left: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+      
+    }
+    
+    .one {
+      height:100vh;
+    }
+    
+    .two {
+      display: none;
+    }
+    
+    .mobile {
+    align-self: flex-start;
+    border: none;
+    padding: 20px;
+    color: #f3ecca;
+    font-size: 15px;
+    margin-top: 20px; 
+    position: absolute;
+    width: 27%;
+    font-family: 'Klee One', cursive;
+    background-color: #454545;
+  
+    }
+    
+    .btn {
+    align-self: center;
+    background-color:#930b0c;
+    border: none;
+    padding: 10px;
+    color: #f3ecca;
+    font-size: 20px;
+    margin-top: 90px;  
+    position: absolute;
+    width: 30%;
+    font-family: 'Klee One', cursive;} 
+  }
+  @media all and (max-width: 500px) {
+    .btn {
+      justify-content: center;
+        background-color:#930b0c;
+        border: none;
+        padding: 10px;
+       
+        font-size: 15px;
+        margin-top: 30px;  
+        position: absolute;
+        width: 20%;
+        }  
+        .header, .links {
+            margin-left: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            
+          }
+  }
